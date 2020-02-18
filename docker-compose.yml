@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+ eywebappranj:
+  image: ranjeyfebapp:v10
+  build: 
+   context: .
+   dockerfile: ranjweb.Dockerfile
+  container_name: ranjeyc11
+  ports:
+   - "1616:80" 
